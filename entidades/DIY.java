@@ -4,20 +4,24 @@ package entidades;
 
 import java.util.ArrayList;
 
-public class DIY{
-    private String link;
-    private Publicacao publicar;
+public class DIY extends Publicacao{
+    
+	private String link;
     
     public DIY(String titulo, String descricao, String link, ArrayList<String> tag, ArrayList<String> fotos){
-        publicar.titulo=titulo;
-        publicar.descricao=descricao;
+        this.titulo=titulo;
+        this.descricao=descricao;
         this.link=link;
-        publicar.tag=tag;
-        publicar.fotos=fotos;
+        this.tag=tag;
+        this.fotos=fotos;
 
     } 
 
     public String getLink(){
         return this.link;
+    }
+    
+    public void setLink(String link) {
+    	this.link = link;
     }
 }

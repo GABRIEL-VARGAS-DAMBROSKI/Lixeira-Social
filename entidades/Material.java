@@ -4,23 +4,24 @@ package entidades;
 
 import java.util.ArrayList;
 
-public class Material {
+public class Material extends Doacao {
 	
-	private String uni_medida;
-	private Doacao doacao;
+	private String unidadeMedida;
 	
 	public Material(String titulo, String descricao, ArrayList <String> tag, int quantidade) {
-		
-		
+		this.titulo = titulo;
+		this.descricao = descricao;
+		this.tag = tag;
+		this.quantidade = quantidade;
 	}
 	
-	public String getUni_Medida(){
-		return this.uni_medida;
+	public String getUnidadeMedida(){
+		return this.unidadeMedida;
 	}
 
 	public void setUnidadeMedida(String medida) {
 		
-		this.uni_medida = medida;
+		this.unidadeMedida = medida;
 	}
 	
 	

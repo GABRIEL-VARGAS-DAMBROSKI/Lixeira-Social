@@ -4,7 +4,7 @@ By: William da Silva Pereira - 100942
 
 package entidades;
 
-class Instituicao extends Usuario
+public class Instituicao extends Usuario
 {
 	private String cnpj;
 

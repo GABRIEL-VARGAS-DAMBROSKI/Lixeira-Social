@@ -7,6 +7,7 @@ package entidades;
 
 import java.util.ArrayList;
 
+
 public class PontoDeColeta extends Publicacao{
 
     private String coordenada;

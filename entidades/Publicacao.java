@@ -5,11 +5,11 @@ package entidades;
 
 import java.util.ArrayList;
 
-public class Publicacao{
+public abstract class Publicacao{
     protected String titulo;
     protected String descricao;
-    private String status;
-    private Usuario publicador;
+    protected String status;
+    protected Usuario publicador;
     protected ArrayList<String> tag;
     protected ArrayList<String> fotos;
 

@@ -4,7 +4,7 @@ By: William da Silva Pereira - 100942
 
 package entidades;
 
-class Doacao extends Publicacao
+public abstract class Doacao extends Publicacao
 {
 
 	protected int quantidade;

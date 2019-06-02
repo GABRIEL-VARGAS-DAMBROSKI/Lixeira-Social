@@ -2,12 +2,12 @@
 
 package entidades;
 
-public class Usuario{
-    private String nome;
-    private int contato;
-    private String email;
-    private String senha;
-    private Endereco endereco;
+public abstract class Usuario{
+    protected String nome;
+    protected int contato;
+    protected String email;
+    protected String senha;
+    protected Endereco endereco;
 
     public String getNome(){
         return this.nome;
@@ -17,6 +17,11 @@ public class Usuario{
     }
     public String getEmail(){
         return this.email;
+    }
+    
+    public Endereco getEndereco()
+    {
+    	return this.endereco;
     }
 
     public void setSenha(String senha){

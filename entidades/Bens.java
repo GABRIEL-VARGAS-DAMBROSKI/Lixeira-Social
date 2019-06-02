@@ -8,7 +8,7 @@ package entidades;
 
 import java.util.ArrayList;
 
-class Bens extends Doacao
+public class Bens extends Doacao
 {
 	private String estadoConservacao;
 	private String tempoUso;
