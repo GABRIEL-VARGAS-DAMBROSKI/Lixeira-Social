@@ -2,7 +2,9 @@
 /*
  * Gabriel Vargas  
  */
+
 package entidades;
+
 import java.util.ArrayList;
 
 public class PontoDeColeta extends Publicacao{
@@ -19,9 +21,8 @@ public class PontoDeColeta extends Publicacao{
     }
 
     public String getCoordenada() {
-        return this.coordenada;
+        return coordenada;
     }
 
-    
     
 }

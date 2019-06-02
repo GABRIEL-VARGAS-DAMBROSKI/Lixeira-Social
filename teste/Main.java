@@ -4,7 +4,6 @@
  */
 
 package teste;
-import entidades.*;
 
 public class Main {
     
@@ -16,14 +15,3 @@ public class Main {
     }
 
 }
-
-
-/*
-        Pessoa pessoa = new Pessoa(
-            "123.456.789-0",
-            "Homem Porra",
-            "Gabriel Vargas Dambroski",
-            9601687,
-            "gabriel@email.com"
-        ); 
-*/
