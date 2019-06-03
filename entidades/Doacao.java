@@ -1,16 +1,19 @@
-
-/*
- * Gabriel Vargas  
- */
+/*************************************
+By: William da Silva Pereira - 100942
+*************************************/
 
 package entidades;
 
- public class Doacao extends Publicacao{
+public abstract class Doacao extends Publicacao
+{
 
-    protected int quantidade;
+	protected int quantidade;
 
-    public int getQuantidade() {
-        return this.quantidade;
-    }
 
- }
+	//GETs
+	public int getQuantidade()
+	{
+		return this.quantidade;
+	}
+
+}

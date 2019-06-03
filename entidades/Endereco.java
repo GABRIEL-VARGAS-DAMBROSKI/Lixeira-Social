@@ -1,55 +1,41 @@
+// Emanuel Santos
 
-/*
- * Gabriel Vargas  
- */ 
+package entidades;
 
- package entidades;
+public class Endereco{
+	private int cep;
+	private String logradouro;
+	private int numero;
+	private String cidade;
+	private String uf;
 
- public class Endereco{
+	public Endereco(int cep, String logra, int num, String city, String uf){
+		this.cep = cep;
+		this.logradouro = logra;
+		this.numero = num;
+		this.cidade = city;
+		this.uf = uf;
+	}
 
-    private int cep;
-    private String logradouro;
-    private int numero;
-    private String cidade;
-    private String UF;
+	public int getCep(){
+		return cep;
+	}
 
-    
-    public Endereco(int cep, String logradouro, int numero, String cidade, String uf) {
-        this.cep = cep;
-        this.logradouro = logradouro;
-        this.numero = numero;
-        this.cidade = cidade;
-        this.UF = uf;
-    }
+	public String getLogradouro(){
+		return logradouro;
+	}
 
-    public Endereco() {
-        
-    }
-    
+	public int getNumero(){
+		return numero;
+	}
+
+	public String getCidade(){
+		return cidade;
+	}
+	
+	public String getUf(){
+		return uf;
+	}
 
 
-    public int getCep() {
-        return this.cep;
-    }
-    
-
-    public String getCidade() {
-        return this.cidade;
-    }
-    
-
-    public String getLogradouro() {
-        return this.logradouro;
-    }
-    
-
-    public int getNumero() {
-        return this.numero;
-    }
-    
-
-    public String getUF() {
-        return this.UF;
-    }
-    
- }
+}

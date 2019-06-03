@@ -2,17 +2,15 @@
 /*
  * Gabriel Vargas  
  */ 
-package entidades;
 
+package entidades;
 
 public class Pessoa extends Usuario{
 
     private String cpf;
-    private String sexo;
+    private int sexo;
 
-    public Pessoa(String cpf, String sexo, String nome,int contato, String email) {
-        
-        // PESSOA
+    public Pessoa(String cpf, int sexo, String nome,int contato, String email) {
         this.cpf = cpf;
         this.sexo = sexo;
         this.nome = nome;
@@ -20,16 +18,11 @@ public class Pessoa extends Usuario{
         this.email = email;
     }
 
-    public Pessoa() {
-        
-    }
-    
-
     public String getCpf() {
         return this.cpf;
     }
     
-    public String getSexo() {
+    public int getSexo() {
         return this.sexo;
     }
 
