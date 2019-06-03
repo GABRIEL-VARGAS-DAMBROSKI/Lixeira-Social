@@ -5,8 +5,11 @@ Projeto Integrador UNASP-SP
 Integrantes:
 
 André Buzelli
+
 Emanuel Santos
+
 Gabriel Vargas
+
 William Silva
 
 
